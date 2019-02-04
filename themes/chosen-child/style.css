@@ -1,0 +1,614 @@
+/*
+Theme Name: Chosen Child
+Theme URI: https://www.competethemes.com/chosen/
+Template: chosen
+Author: Lincoln Bernard
+Description: Chosen is a bold and minimalist theme for publishers who want to get their visitors' attention and keep it. Present your best content in a simple, uncluttered fashion on phones, tablets, and desktop computers with Chosen. Use Chosen to start a blog, magazine, or news site in any niche: fashion, business, gaming, food, travel. As a free theme, you can use Chosen for as many sites as you want. It can even be used for video, podcasts, and personal resumes. Now with WooCommerce support, you can also add an eCommerce store to your website. Chosen is also fully compatible with the new Gutenberg post editor. Preview Chosen now on desktop, tablets, and mobile devices with the interactive live demo: https://www.competethemes.com/demos/?theme=chosen
+Tags: one-column,two-columns,accessibility-ready,custom-logo,custom-menu,featured-images,full-width-template,rtl-language-support,sticky-post,theme-options,threaded-comments,translation-ready,blog,news,photography
+Version: 1.34.1543720272
+Updated: 2018-12-02 03:11:12
+
+*/
+
+/*
+ * For big screen sizes (desktops, laptops...)
+*/
+@media all and (min-width: 56.25em) {
+	
+	/* Header */
+	#menu-primary-container {
+		height: 8em;
+		margin-left: 40px;
+		will-change: transform;
+		transform:translateY(-9px);
+		-webkit-transform:translateY(-9px);
+		-webkit-transition: all 0.4s ease-in-out;
+		-moz-transition: all 0.4s ease-in-out ;
+		-ms-transition: all 0.4s ease-in-out ;
+		-o-transition: all 0.4s ease-in-out ;
+		transition: all 0.4s ease-in-out ;
+	}
+	
+	.menu-primary-container {
+		margin-left: 40px;
+		margin-top: -2px;
+	}
+
+	#menu-primary .thinker-icon{
+		position: fixed;
+		margin-left: -46.5px;
+		left: 50%;
+		top: 100%;
+		/*scaling animations*/
+		will-change: transform;
+    	-webkit-transform: 	translate(-50%, -50%);
+    	transform: translate(-50%, -50%);
+		transform-origin: left top;
+		-webkit-transition: all 0.1s ease-in-out;
+	    -moz-transition: all 0.1s ease-in-out ;
+	    -ms-transition: all 0.1s ease-in-out ;
+	    -o-transition: all 0.1s ease-in-out ;
+	    transition: all 0.1s ease-in-out ;
+	}
+
+	#menu-primary-container .shadow-holder-box {
+	  height: 8em;
+	  width: 3000%;
+	  margin-left:-1000px;
+	  position: absolute;
+	  bottom: 0;
+	  pointer-events: none;
+	  border: none;
+	}
+	
+	.social-media-icons {
+		position: fixed;
+		transform:translateY(4px);
+	}
+	
+	.search-form-container {
+		position: fixed;
+		transform:translateY(4px);
+		padding-right: 10px;
+	}
+	
+	#nav_menu-11 {
+		margin-top: 35px;
+	}
+	
+	#nav_menu-11 .widget-title{
+		visibility: hidden;
+	}
+	
+	/* Container for scroll to id on who we are page */
+	#students {
+		padding-top: 500px;
+		margin-top: -550px;
+	}
+	
+	/* Recent Work and Recent Events */
+	.loop-title{
+		margin-top: -15px;
+	}
+	
+	.home-posts {
+		padding-left: 5px;
+	}
+	
+	.home-posts .page {
+		width: 47.691315%;
+	}
+	
+	.home-posts .entry:nth-child(even) {
+		margin-left: 0px;
+	}
+	
+	.home-posts .post-header {
+		margin-top: 0px;
+		margin-left: -40px;
+	}
+	
+	.home-posts .post-byline {
+		margin-left: 2px;
+	}
+	
+	.home-posts .post-content {
+		margin-left: -90px;
+		margin-top: -25px;
+		margin-bottom: -25px;
+		width: 117%;
+	}
+	
+	/* Search results page */
+	.search-header .search-form-container {
+	position: absolute;
+		padding-bottom: 50px;
+		width: 92%;
+	}
+	
+	.search .loop-container {
+		padding-top: 140px
+	}
+	
+	/* Posts */
+	.post-content {
+		width: 100%;
+	}
+	
+	.post-title {
+		width: 60%;
+		margin-left: 50%;
+		  -webkit-transform: 	translate(-50%, -15%);
+    transform: translate(-50%, -15%);
+	}
+	
+	/* Post title */
+	.search .post-title {
+		width: 100%;
+		margin: 0px;
+		margin-top: -25px;
+		margin-bottom: -25px;
+		-webkit-transform: 	translate(0%, 0%);
+    	transform: translate(0%, 0%);
+	}
+	
+	.archive .post-title {
+		width: 100%;
+		margin: 0px;
+		margin-top: -25px;
+		margin-bottom: -25px;
+		  -webkit-transform: 	translate(0%, 0%);
+    transform: translate(0%, 0%);
+	}
+	
+	.home-posts .post-title {
+		font-size: 2em;
+		margin: 0px;
+		margin-bottom: -25px;
+		-webkit-transform: 	translate(0%, 0%);
+    transform: translate(0%, 0%);
+	}
+	
+	/* Featured video */
+	.featured-video {
+		padding-top: 75px;
+	}
+	
+	.search .featured-video {
+		padding-top: 0px;
+		padding-bottom: 25px;
+	}
+	
+	.archive .featured-video {
+		padding-top: 0px;
+		padding-bottom: 25px;
+	}
+	
+	/* Article */
+	article {
+		float:left;
+		width: 100%;
+	}
+	
+	.search article {
+		width: 100%;
+	}
+	
+	.home article {
+		float:left;
+		width: 100%;
+	}
+	
+	.home-posts article {
+		width: 100%;
+	}
+	
+	/* Featured image */
+	.featured-image {
+		margin-top: 75px;
+		margin-bottom: 80px;
+	}
+	
+	.home .featured-image {
+		margin-top: 140px;
+		margin-bottom: 0px;
+	}
+	
+	.search .featured-image {
+		margin-top: 0px;
+		margin-bottom: 50px;
+	}
+	
+	.archive .featured-image {
+		margin-top: 0px;
+		margin-bottom: 50px;
+	}
+	
+	.home-posts .featured-image{
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+	
+	/* Post byline */
+	.post-byline {
+		margin-top: 0px;
+	}
+	
+	.archive .post-byline {
+		margin-top: 30px
+	}
+	
+	.search .post-byline {
+		margin-top: 30px;
+	}
+	
+	/* Who we are page */
+	.post-310  .site-header{
+		margin-bottom: -100px;
+	}
+	
+	.post-310  .post-header{
+		width: 147%;
+	}
+	
+	.post-310 .post-title{
+		text-align: center;
+		width: 100%;
+		margin-bottom: 0px;
+		margin-top: 40px;
+		margin-left: 0px;
+		-webkit-transform: 	translate(0%, -15%);
+   		transform: translate(0%, -60%);
+	}
+	
+	.home #title-container { 
+		visibility: visible;
+		margin-top: 150px;
+		margin-bottom: -130px;
+   }
+
+	#sidebar-primary {
+		padding-right:20px;
+		width:200px;
+		margin-top: 7.75em;
+    margin-right: -4em;
+		padding-left:20px;
+	}
+	
+	/* Footer */
+	#footer-subscribe {
+		margin-top: -25px;
+		border: 1px soild white;
+		padding-left: 10px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		height: 200px;
+		width: 250px;
+		margin-left: -50px;
+		margin-right: -100%;
+	}
+	#footer-pages-menu {
+		margin-top: -20px;
+		width: 600px;
+		margin-left: 95vw;
+	}
+	#footer-pages-menu .menu {
+		float: right;
+		width: 600px;
+		padding-left: 50px;
+		-moz-column-count: 3;
+	  -moz-column-gap: 0px;
+	  -webkit-column-count: 3;
+	  -webkit-column-gap: 0px;
+	  column-count: 3;
+	  column-gap: 0px;
+	}
+	
+	#footer-pages-menu .menu a{
+		color: #838383;
+	}
+	
+	#footer-pages-menu .menu a:hover {
+		color: white;
+	}
+	
+	#footer-pages-menu .current-menu-item a {
+		color: #d01c27;
+	}
+	
+	#footer-pages-menu .current-menu-item a:hover {
+		color: #d01c27;
+	}
+}	
+
+/*
+ * Helps content better adjust to medium screen sizes
+*/
+@media all and (min-width: 69em) and (max-width: 75em) {
+	/* Home page recent work and recent events post content */
+	.home-posts .post-content {
+		margin-left: -65px;
+		margin-top: -25px;
+		margin-bottom: -25px;
+		width: 117%;
+	}
+}
+
+/*
+ * Helps content better adjust to medium screen sizes
+*/
+@media all and (min-width: 56.25em) and (max-width: 69em) {
+	/* Home page recent work and recent events post content */
+	.home-posts .post-content {
+		margin-left: -40px;
+		margin-top: -25px;
+		margin-bottom: -25px;
+		width: 117%;
+	}
+}
+
+/* Header (have to put this here to ensure size starts at 6em, but is 4em for small screens */
+#menu-primary .thinker-icon > a {
+	width: 6em;
+    outline: 0px;
+	/*scaling animations*/
+	transform-origin: left top;
+	-webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out ;
+   -ms-transition: all 0.2s ease-in-out ;
+   -o-transition: all 0.2s ease-in-out ;
+   transition: all 0.2s ease-in-out ;
+}
+
+/*
+ * For small screen sizes (tablets, phones...)
+*/
+@media all and (max-width: 56.25em) {
+	
+	/* Header */
+	.site-header {
+		margin-bottom: 75px;
+	}
+	
+	#menu-item-6 {
+		padding-top: 2px;
+	}
+	#menu-primary .thinker-icon > a {
+		margin-top: 0px;
+		width: 4em;
+		margin-right: 2px;
+	}
+	
+	#menu-primary .thinker-icon {
+		margin-top: 0px;
+	}
+	
+	.home #title-container { 
+		visibility: visible;
+		margin-bottom: 0px;
+		margin-top: 40px;
+	}
+	
+	.loop-title{
+		text-align: center;
+	}
+	
+	/*Post Content*/
+	.post-content p {
+		padding-left: 10px;
+	}
+	
+	/* Home featured image */
+	.post-393 .featured-image {
+		margin-bottom: -35px;
+	}
+	
+	/* Home page recent work and recent events thumbnails */
+	.home-posts .featured-image{
+		margin-bottom: 35px;
+	}
+	
+	.featured-video{
+		width: 100%;
+	}
+	
+	/* Home page recent work and recent events post content */
+	.post-393 .post-content {
+		padding-top: 50px;
+		margin-bottom: -75px;
+	}
+	
+	/* Footer */
+	#footer-subscribe {
+		margin-top: 30px;
+	}
+	
+	#footer-pages-menu {
+		display: none;
+	}
+}
+
+#main {
+	margin-top: -40px;
+}
+
+#menu-primary .thinker-icon:hover {
+	-webkit-filter: invert(43%) sepia(0%) saturate(1581%) hue-rotate(147deg) brightness(86%) contrast(78%);
+	filter: invert(43%) sepia(0%) saturate(1581%) hue-rotate(147deg) brightness(86%) contrast(78%);
+}
+
+.home #title-container a:hover { 
+      color:#666666;
+}
+
+/* text colors and weights */
+.sidebar .menu .current-menu-item a {
+    font-weight: bold;
+		color: #d01c27;
+}
+
+.comments-link a {
+	color: black !important;
+}
+
+.more-link {
+	color: white !important;
+}
+
+/* Color of email links */
+a[href^="mailto:"]{ 
+  color: #d01c27 !important;
+}
+
+a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#title-container a:hover {
+	text-decoration: none;
+}
+
+.widget-title a:hover {
+	 color:#666666;
+}
+
+#title-container { 
+	visibility:hidden;
+	margin-bottom: -80px;
+}
+
+.loop-title{
+	font-size: 1.375em;
+	color: #d01c27;
+}
+
+/* Hides home page post header */
+.post-393 .post-header{
+	display: none; 
+}
+
+.post-content {
+	line-height: 30px;
+}
+
+.alignright, .alignleft {
+	margin-top: 35px;
+	margin-bottom: -5px
+}
+
+/* Featured image */
+.featured-image > a > img {
+  object-position: top;
+}
+
+.home .featured-image > a > img {
+  object-position: center;
+}
+
+.home-posts .featured-image > a > img {
+  object-position: top;
+}
+
+/* Navigation menu "X" when menu is open */
+.is-active {
+	position: absolute;
+}
+
+.featured-video{
+	width: 100%
+}
+
+/*Scroll to id sidebar menu color when highlighted */
+a.mPS2id-highlight{ 
+   color: #d01c27; 
+}
+
+/* Who we are page */
+.post-310  article{
+	margin-top: 5px;
+}
+
+.post-310  img {
+	border:0px solid black;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -ms-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+/* Where we are page */
+.mapouter {
+	width: 100%;
+	border:3px solid black;
+}
+
+.gmap_canvas {
+	width: 100%; 
+	height: 500px;
+}
+
+iframe {
+	width: 100%; 
+	height:100%;
+}
+
+.singular-page-313 .post-header {
+	margin-top: -50px;
+	margin-bottom: -30px;
+}
+
+#scroll-to-top {
+	will-change: transform;
+	margin-bottom:-1px;
+}
+
+/* Sticky Footer Magic */
+* {
+	box-sizing: border-box;
+}
+
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	position: relative;
+}
+
+.main {
+	min-height: 50vh; /* will cover the 100% of viewport */
+	overflow: hidden;
+	display: block;
+	position: relative;
+	padding-bottom: 100px; /* height of your footer */
+}
+
+/* Ensure no white-space below footer */
+#overflow-container {
+	margin-bottom: -1px;
+}
+
+#site-footer {
+	height: 300px;
+	margin-top: 100px;
+	margin-bottom: -40px;
+	width: 300%;
+	left: 50%;
+    -webkit-transform: 	translate(-50%, -50%);
+    transform: translate(-50%, 0%);
+	overflow: hidden;
+}
+
+.design-credit {
+	display: none;
+}

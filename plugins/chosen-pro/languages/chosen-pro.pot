@@ -1,0 +1,754 @@
+# Copyright (C) 2018 Compete Themes
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Chosen Pro 1.21\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/chosen-pro\n"
+"POT-Creation-Date: 2018-09-26 15:57:42+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: chosen-pro.php:47
+msgid ""
+"Almost done! Please <a id=\"switch-themes-link\" href=\"%s\">click here</a> "
+"to activate the Chosen theme and use the Chosen Pro plugin."
+msgstr ""
+
+#: chosen-pro.php:93
+msgid ""
+"Chosen Pro needs the Chosen theme to work. Please <a href='%s'>click "
+"here</a> to find and install Chosen from the Appearance menu."
+msgstr ""
+
+#: chosen-pro.php:162
+msgid "New features now available in the <a href=\"%s\">Customizer</a>!"
+msgstr ""
+
+#: inc/colors.php:12
+msgid "Base"
+msgstr ""
+
+#: inc/colors.php:13
+msgid "These colors affect elements across the entire site."
+msgstr ""
+
+#: inc/colors.php:17 inc/colors.php:257
+msgid "Background"
+msgstr ""
+
+#: inc/colors.php:22 inc/colors.php:230
+msgid "Headings"
+msgstr ""
+
+#: inc/colors.php:27 inc/colors.php:161 inc/colors.php:213 inc/colors.php:240
+#: inc/colors.php:272
+msgid "Links"
+msgstr ""
+
+#: inc/colors.php:32 inc/colors.php:166 inc/colors.php:218 inc/colors.php:245
+#: inc/colors.php:277
+msgid "Links (hover)"
+msgstr ""
+
+#: inc/colors.php:37 inc/colors.php:156 inc/colors.php:208 inc/colors.php:235
+#: inc/colors.php:267
+msgid "Content"
+msgstr ""
+
+#: inc/colors.php:42
+msgid "Inputs"
+msgstr ""
+
+#: inc/colors.php:47
+msgid "Inputs Background"
+msgstr ""
+
+#: inc/colors.php:52
+msgid "Inputs Background (focus)"
+msgstr ""
+
+#: inc/colors.php:57
+msgid "Inputs Border"
+msgstr ""
+
+#: inc/colors.php:62
+msgid "Buttons"
+msgstr ""
+
+#: inc/colors.php:67
+msgid "Buttons (hover)"
+msgstr ""
+
+#: inc/colors.php:72
+msgid "Buttons Background"
+msgstr ""
+
+#: inc/colors.php:77
+msgid "Buttons Background (hover)"
+msgstr ""
+
+#: inc/colors.php:84
+msgid "Header"
+msgstr ""
+
+#: inc/colors.php:85
+msgid "These colors affect elements in the Header."
+msgstr ""
+
+#: inc/colors.php:89
+msgid "Menu Links"
+msgstr ""
+
+#: inc/colors.php:94
+msgid "Menu Links (hover)"
+msgstr ""
+
+#: inc/colors.php:99
+msgid "Menu Links Border"
+msgstr ""
+
+#: inc/colors.php:104
+msgid "Mobile Menu Button"
+msgstr ""
+
+#: inc/colors.php:109
+msgid "Social Icons"
+msgstr ""
+
+#: inc/colors.php:114
+msgid "Social Icons (hover)"
+msgstr ""
+
+#: inc/colors.php:119
+msgid "Site Title"
+msgstr ""
+
+#: inc/colors.php:124
+msgid "Site Title (hover)"
+msgstr ""
+
+#: inc/colors.php:129
+msgid "Tagline"
+msgstr ""
+
+#: inc/colors.php:136
+msgid "Posts"
+msgstr ""
+
+#: inc/colors.php:137
+msgid "These colors affect elements in Posts on the Blog and Post pages."
+msgstr ""
+
+#: inc/colors.php:141
+msgid "Title"
+msgstr ""
+
+#: inc/colors.php:146
+msgid "Title (hover)"
+msgstr ""
+
+#: inc/colors.php:151
+msgid "Date"
+msgstr ""
+
+#: inc/colors.php:171
+msgid "More Button"
+msgstr ""
+
+#: inc/colors.php:176
+msgid "More Button (hover)"
+msgstr ""
+
+#: inc/colors.php:181
+msgid "More Button Background"
+msgstr ""
+
+#: inc/colors.php:186
+msgid "More Button Background (hover)"
+msgstr ""
+
+#: inc/colors.php:191
+msgid "Comments Link"
+msgstr ""
+
+#: inc/colors.php:196
+msgid "Comments Link (hover)"
+msgstr ""
+
+#: inc/colors.php:203
+msgid "Comments"
+msgstr ""
+
+#: inc/colors.php:204
+msgid "These colors affect elements in the Comments."
+msgstr ""
+
+#: inc/colors.php:225
+msgid "Widgets"
+msgstr ""
+
+#: inc/colors.php:226
+msgid "These colors affect elements in Widgets."
+msgstr ""
+
+#: inc/colors.php:252 inc/customizer.php:612 inc/widget-areas.php:50
+msgid "Footer"
+msgstr ""
+
+#: inc/colors.php:253
+msgid "These colors affect elements in the Footer."
+msgstr ""
+
+#: inc/colors.php:262
+msgid "Border"
+msgstr ""
+
+#: inc/colors.php:303
+msgid "Current Menu Item Underline"
+msgstr ""
+
+#: inc/colors.php:315
+msgid "Post category links"
+msgstr ""
+
+#: inc/customizer.php:31
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer.php:32
+msgid "Change any color on your site"
+msgstr ""
+
+#: inc/customizer.php:41
+msgid "Header Image"
+msgstr ""
+
+#: inc/customizer.php:51
+msgid "Upload an image"
+msgstr ""
+
+#: inc/customizer.php:63
+msgid "Only display on homepage?"
+msgstr ""
+
+#: inc/customizer.php:68 inc/customizer.php:129 inc/customizer.php:640
+#: inc/customizer.php:670
+msgid "Yes"
+msgstr ""
+
+#: inc/customizer.php:69 inc/customizer.php:130 inc/customizer.php:641
+#: inc/customizer.php:671
+msgid "No"
+msgstr ""
+
+#: inc/customizer.php:78
+msgid "Header image link"
+msgstr ""
+
+#: inc/customizer.php:90
+msgid "Responsive or Fixed height?"
+msgstr ""
+
+#: inc/customizer.php:95 inc/customizer.php:680
+msgid "Responsive"
+msgstr ""
+
+#: inc/customizer.php:96 inc/customizer.php:681
+msgid "Fixed"
+msgstr ""
+
+#: inc/customizer.php:107
+msgid "Adjust the height"
+msgstr ""
+
+#: inc/customizer.php:124
+msgid "Add Parallax Effect?"
+msgstr ""
+
+#: inc/customizer.php:186 inc/page-layouts.php:12
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer.php:198
+msgid "Choose your layout"
+msgstr ""
+
+#: inc/customizer.php:199
+msgid "Layout can be overridden for any post or page."
+msgstr ""
+
+#: inc/customizer.php:203 inc/customizer.php:726
+msgid "Two columns"
+msgstr ""
+
+#: inc/customizer.php:204 inc/customizer.php:727
+msgid "One column"
+msgstr ""
+
+#: inc/customizer.php:205 inc/customizer.php:728 inc/page-layouts.php:32
+msgid "Right sidebar"
+msgstr ""
+
+#: inc/customizer.php:206 inc/customizer.php:729 inc/page-layouts.php:36
+msgid "Left sidebar"
+msgstr ""
+
+#: inc/customizer.php:207 inc/customizer.php:730
+msgid "Two columns - Right sidebar"
+msgstr ""
+
+#: inc/customizer.php:208 inc/customizer.php:731
+msgid "Two columns - Left sidebar"
+msgstr ""
+
+#: inc/customizer.php:209 inc/customizer.php:732
+msgid "Three columns"
+msgstr ""
+
+#: inc/customizer.php:222 inc/customizer.php:701
+msgid "Thin"
+msgstr ""
+
+#: inc/customizer.php:223 inc/customizer.php:702
+msgid "Extra-light"
+msgstr ""
+
+#: inc/customizer.php:224 inc/customizer.php:703
+msgid "Light"
+msgstr ""
+
+#: inc/customizer.php:225 inc/customizer.php:704
+msgid "Regular"
+msgstr ""
+
+#: inc/customizer.php:226 inc/customizer.php:705
+msgid "Medium"
+msgstr ""
+
+#: inc/customizer.php:227 inc/customizer.php:706
+msgid "Semi-Bold"
+msgstr ""
+
+#: inc/customizer.php:228 inc/customizer.php:707
+msgid "Bold"
+msgstr ""
+
+#: inc/customizer.php:229 inc/customizer.php:708
+msgid "Extra-Bold"
+msgstr ""
+
+#: inc/customizer.php:230 inc/customizer.php:709
+msgid "Ultra-Bold"
+msgstr ""
+
+#: inc/customizer.php:250
+msgid "Fonts"
+msgstr ""
+
+#: inc/customizer.php:251
+msgid ""
+"<i>All fonts can be previewed at <a href=\"%s\" target=\"_blank\">Google "
+"Fonts</a>.</i>"
+msgstr ""
+
+#: inc/customizer.php:262
+msgid "Primary Font"
+msgstr ""
+
+#: inc/customizer.php:263 inc/customizer.php:290 inc/customizer.php:317
+msgid "Default font is"
+msgstr ""
+
+#: inc/customizer.php:276
+msgid "Primary Font Weight"
+msgstr ""
+
+#: inc/customizer.php:289
+msgid "Heading Font"
+msgstr ""
+
+#: inc/customizer.php:303
+msgid "Heading Font Weight"
+msgstr ""
+
+#: inc/customizer.php:316
+msgid "Site Title Font"
+msgstr ""
+
+#: inc/customizer.php:330
+msgid "Site Title Font Weight"
+msgstr ""
+
+#: inc/customizer.php:341
+msgid "Spacing"
+msgstr ""
+
+#: inc/customizer.php:342
+msgid "Spacing may vary across screen sizes."
+msgstr ""
+
+#: inc/customizer.php:353
+msgid "Above logo/site title (px)"
+msgstr ""
+
+#: inc/customizer.php:365
+msgid "Below logo/site title (px)"
+msgstr ""
+
+#: inc/customizer.php:375 inc/featured-image-size.php:12
+msgid "Featured Image Size"
+msgstr ""
+
+#: inc/customizer.php:385
+msgid "Aspect ratio for all Featured Images"
+msgstr ""
+
+#: inc/customizer.php:386
+msgid "Size can be overridden in Post editor."
+msgstr ""
+
+#: inc/customizer.php:402 inc/customizer.php:762 inc/featured-image-size.php:76
+msgid "Natural Dimensions"
+msgstr ""
+
+#: inc/customizer.php:410
+msgid "Display Controls"
+msgstr ""
+
+#: inc/customizer.php:411
+msgid "Choose which elements to show/hide:"
+msgstr ""
+
+#: inc/customizer.php:423
+msgid "Site title"
+msgstr ""
+
+#: inc/customizer.php:427 inc/customizer.php:444 inc/customizer.php:461
+#: inc/customizer.php:478 inc/customizer.php:495 inc/customizer.php:513
+#: inc/customizer.php:531 inc/customizer.php:548 inc/customizer.php:565
+#: inc/customizer.php:582 inc/customizer.php:599 inc/customizer.php:616
+#: inc/customizer.php:741
+msgid "Show"
+msgstr ""
+
+#: inc/customizer.php:428 inc/customizer.php:445 inc/customizer.php:462
+#: inc/customizer.php:479 inc/customizer.php:496 inc/customizer.php:514
+#: inc/customizer.php:532 inc/customizer.php:549 inc/customizer.php:566
+#: inc/customizer.php:583 inc/customizer.php:600 inc/customizer.php:617
+#: inc/customizer.php:742
+msgid "Hide"
+msgstr ""
+
+#: inc/customizer.php:440
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/customizer.php:457
+msgid "Post titles"
+msgstr ""
+
+#: inc/customizer.php:474
+msgid "Post date"
+msgstr ""
+
+#: inc/customizer.php:491
+msgid "\"Continue reading\" button"
+msgstr ""
+
+#: inc/customizer.php:509
+msgid "Comments link"
+msgstr ""
+
+#: inc/customizer.php:527
+msgid "Post categories"
+msgstr ""
+
+#: inc/customizer.php:544
+msgid "Post tags"
+msgstr ""
+
+#: inc/customizer.php:561
+msgid "Previous/Next post links"
+msgstr ""
+
+#: inc/customizer.php:578
+msgid "Comment count"
+msgstr ""
+
+#: inc/customizer.php:595
+msgid "Comment date"
+msgstr ""
+
+#: inc/customizer.php:625
+msgid "Fixed Menu"
+msgstr ""
+
+#: inc/customizer.php:635
+msgid "Fix the menu to the top of the screen?"
+msgstr ""
+
+#: inc/customizer.php:649
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer.php:659
+msgid "Edit the text in your footer"
+msgstr ""
+
+#: inc/featured-image-size.php:29
+msgid "Use size set in Customizer"
+msgstr ""
+
+#: inc/featured-sliders.php:12
+msgid "Featured Slider"
+msgstr ""
+
+#: inc/featured-sliders.php:39
+msgid ""
+"Looks like you don't have any Sliders yet. <a href='%s' "
+"target='_blank'>Click here</a> to create your first slider."
+msgstr ""
+
+#: inc/featured-sliders.php:45
+msgid "Choose a slider:"
+msgstr ""
+
+#: inc/featured-sliders.php:48
+msgid "Select a slider"
+msgstr ""
+
+#: inc/featured-sliders.php:58
+msgid "Recommended slider dimensions: 2x1"
+msgstr ""
+
+#: inc/featured-sliders.php:72
+msgid "Choose where to display the slider:"
+msgstr ""
+
+#: inc/featured-sliders.php:75 inc/featured-videos.php:69
+msgid "Post"
+msgstr ""
+
+#: inc/featured-sliders.php:79 inc/featured-videos.php:73
+msgid "Blog"
+msgstr ""
+
+#: inc/featured-sliders.php:83 inc/featured-videos.php:77
+msgid "Post & Blog"
+msgstr ""
+
+#: inc/featured-sliders.php:95
+msgid "Please activate Meta Slider from the <a href='%s'>Plugins menu</a>."
+msgstr ""
+
+#: inc/featured-sliders.php:103
+msgid "Featured Sliders require the Meta Slider plugin."
+msgstr ""
+
+#: inc/featured-sliders.php:104
+msgid ""
+"<a href='%s'>Click here</a> to find and install Meta Slider from the "
+"Plugins menu."
+msgstr ""
+
+#: inc/featured-videos.php:12
+msgid "Featured Video"
+msgstr ""
+
+#: inc/featured-videos.php:37
+msgid "Video Preview"
+msgstr ""
+
+#: inc/featured-videos.php:48
+msgid "Add video URL:"
+msgstr ""
+
+#: inc/featured-videos.php:66
+msgid "Choose where to display the video:"
+msgstr ""
+
+#: inc/featured-videos.php:91
+msgid "Youtube controls"
+msgstr ""
+
+#: inc/featured-videos.php:94
+msgid "Hide title"
+msgstr ""
+
+#: inc/featured-videos.php:98
+msgid "Hide related videos"
+msgstr ""
+
+#: inc/featured-videos.php:102
+msgid "Hide Youtube logo"
+msgstr ""
+
+#: inc/featured-videos.php:106
+msgid "Show Captions by Default"
+msgstr ""
+
+#: inc/featured-videos.php:110
+msgid "Autoplay video"
+msgstr ""
+
+#: inc/featured-videos.php:114
+msgid "Loop video"
+msgstr ""
+
+#: inc/header-image.php:16
+msgid "Visit Page"
+msgstr ""
+
+#: inc/layout.php:18
+msgid "Primary Sidebar"
+msgstr ""
+
+#: inc/layout.php:20
+msgid ""
+"Widgets in this area will be shown in the Sidebar (based on the layout you "
+"choose in the Customizer)"
+msgstr ""
+
+#: inc/page-layouts.php:29
+msgid "Use layout set in Customizer"
+msgstr ""
+
+#: inc/page-layouts.php:40
+msgid "One Column"
+msgstr ""
+
+#: inc/widget-areas.php:10
+msgid "After Post Content"
+msgstr ""
+
+#: inc/widget-areas.php:12
+msgid "Widgets in this area will be shown after the post content"
+msgstr ""
+
+#: inc/widget-areas.php:20
+msgid "After Page Content"
+msgstr ""
+
+#: inc/widget-areas.php:22
+msgid "Widgets in this area will be shown after the page content"
+msgstr ""
+
+#: inc/widget-areas.php:30
+msgid "Before Main Content"
+msgstr ""
+
+#: inc/widget-areas.php:32
+msgid "Widgets in this area will be shown after the site title and above the posts"
+msgstr ""
+
+#: inc/widget-areas.php:40
+msgid "After Main Content"
+msgstr ""
+
+#: inc/widget-areas.php:42
+msgid "Widgets in this area will be shown below the posts/page and above the footer"
+msgstr ""
+
+#: inc/widget-areas.php:52
+msgid "Widgets in this area will be shown in the footer"
+msgstr ""
+
+#: licensing/EDD_SL_Plugin_Updater.php:225
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: licensing/EDD_SL_Plugin_Updater.php:233
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: licensing/EDD_SL_Plugin_Updater.php:466
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: licensing/EDD_SL_Plugin_Updater.php:466
+msgid "Error"
+msgstr ""
+
+#: licensing/licensing.php:22
+msgid "Get updates for Chosen Pro"
+msgstr ""
+
+#: licensing/licensing.php:23
+msgid "Activate a license key to receive Chosen Pro updates"
+msgstr ""
+
+#: licensing/licensing.php:28
+msgid "License Key"
+msgstr ""
+
+#: licensing/licensing.php:32
+msgid "Enter your license key"
+msgstr ""
+
+#: licensing/licensing.php:38
+msgid "Activate/Deactivate"
+msgstr ""
+
+#: licensing/licensing.php:42
+msgid "License Activated"
+msgstr ""
+
+#: licensing/licensing.php:43
+msgid "Deactivate License"
+msgstr ""
+
+#: licensing/licensing.php:45
+msgid "Activate License"
+msgstr ""
+
+#: licensing/licensing.php:52
+msgid "Expiration Date"
+msgstr ""
+
+#: licensing/licensing.php:60
+msgid "Renew license"
+msgstr ""
+
+#: licensing/licensing.php:160 licensing/licensing.php:209
+#: licensing/licensing.php:271
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: licensing/licensing.php:175
+msgid ""
+"Your license key expired on %1$s. <a target=\"_blank\" href=%2$s>Please "
+"renew here</a>."
+msgstr ""
+
+#: licensing/licensing.php:183
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: licensing/licensing.php:188
+msgid "Please enter a license key."
+msgstr ""
+
+#: licensing/licensing.php:194
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: licensing/licensing.php:199
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: licensing/licensing.php:204
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Chosen Pro adds premium functionality and flexibility to the Chosen "
+"WordPress theme."
+msgstr ""

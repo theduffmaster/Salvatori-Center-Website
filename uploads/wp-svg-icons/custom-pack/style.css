@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url( 'http://localhost/wordpress/wp-content/uploads/wp-svg-icons/custom-pack/fonts/icomoon.eot?2sc2fj');
+  src:  url( 'http://localhost/wordpress/wp-content/uploads/wp-svg-icons/custom-pack/fonts/icomoon.eot?2sc2fj#iefix') format('embedded-opentype'),
+    url( 'http://localhost/wordpress/wp-content/uploads/wp-svg-icons/custom-pack/fonts/icomoon.ttf?2sc2fj') format('truetype'),
+    url( 'http://localhost/wordpress/wp-content/uploads/wp-svg-icons/custom-pack/fonts/icomoon.woff?2sc2fj') format('woff'),
+    url( 'http://localhost/wordpress/wp-content/uploads/wp-svg-icons/custom-pack/fonts/icomoon.svg?2sc2fj#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="wp-svg-custom-"], [class*=" wp-svg-custom-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wp-svg-custom-noun_The-Thinker_57467_000000:before {
+  content: "\e900";
+}

@@ -1,0 +1,79 @@
+.tc-box {
+	padding:20px 0;
+	border-top:1px solid #dfdfdf;
+}
+.tc-warning, .tc-required, .tc-fail {
+	color:red;
+}
+.tc-recommended, .tc-pass {
+	color: green;
+}
+.tc-info {
+	color: blue;
+}
+.tc-grep {
+	background: #333;
+	color: #FFD22E;
+	margin:0;
+}
+.tc-grep:not(span) {
+	padding:5px;
+	border-bottom: 1px dotted black;
+}
+.tc-grep span {
+	background: white;
+	color: black;
+
+}
+pre {
+	white-space: pre-wrap;
+}
+.tc-success {
+	margin:0 20px 20px 20px;
+	background:#e6ffe2;
+	border:1px solid #d1eecc;
+}
+form {
+	margin:20px auto;
+}
+form input[type="checkbox"] {
+	margin-left:20px;
+}
+.theme-check {
+}
+.theme-check h2 {
+}
+.theme-check p {
+}
+.theme-check form {
+}
+.theme-check ul {
+}
+.theme-check h3 {
+}
+.theme-check ul {
+	margin-bottom:10px;
+}
+
+.theme-check ul li{
+	margin-bottom: 15px;
+}
+.theme-info {
+	padding:10px;
+	border:1px solid #dfdfdf;
+	margin:10px 20px 0 0px;
+}
+.theme-info p {
+	padding:0;
+	margin-bottom:10px;
+}
+.theme-info label {
+	float:left;
+	width:100px;
+	font-weight:bold;
+	display:block;
+}
+.theme-info span.info {
+	margin-left:100px;
+	display:block;
+}
